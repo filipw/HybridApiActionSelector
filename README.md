@@ -4,7 +4,9 @@ HybridApiActionSelector
 HTTP verb and action name hybrid dispatcher for Web API
 
 Usage:
+
 1. Reference the Strathweb.HybridApiActionSelector project (or dll)
+
 2. Replace the default action selector in your API with the new one:
    config.Services.Replace(typeof(IHttpActionSelector), new HybridActionSelector());
 
